@@ -34,6 +34,7 @@ This Parquet file stores filesystem metadata collected from Windows, macOS, and 
 | is_readonly           | BOOLEAN    | -              | PLAIN            | Read-only flag               |
 | file_extension        | BYTE_ARRAY | UTF8           | PLAIN_DICTIONARY | File extension               |
 | sha256                | BYTE_ARRAY | UTF8           | PLAIN_DICTIONARY | SHA256 hash of file          |
+| parquet_file_name     | BYTE_ARRAY | UTF8           | PLAIN_DICTIONARY | Name of the output Parquet file |
 
 ### 2.2 Detailed Data Type Specifications
 

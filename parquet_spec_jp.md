@@ -34,6 +34,7 @@
 | is_readonly           | BOOLEAN    | -              | PLAIN            | 読み取り専用フラグ                             |
 | file_extension        | BYTE_ARRAY | UTF8           | PLAIN_DICTIONARY | ファイル拡張子                                 |
 | sha256                | BYTE_ARRAY | UTF8           | PLAIN_DICTIONARY | ファイルの SHA256 ハッシュ値                   |
+| parquet_file_name     | BYTE_ARRAY | UTF8           | PLAIN_DICTIONARY | 出力先 Parquet ファイル名                      |
 
 ### 2.2 データ型の詳細仕様
 
